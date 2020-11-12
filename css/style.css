@@ -3,3 +3,42 @@
   padding: 0;
   box-sizing: border-box;
 }
+.container{
+  margin: auto;
+  width: 1500px;
+  height: 600px;
+  background-color: white;
+}
+.clearfix{
+  content: '';
+  display: table;
+  clear: both;
+}
+.float-left{
+  float: left;
+}
+.float-right{
+  float: right;
+}
+
+
+header{
+  width: 100%;
+  height: 800px;
+  background-color: black;
+}
+.fixed{
+  width: 100%;
+  height: 75px;
+  background-color: lightgreen;
+}
+.box-lang{
+  width: 25%;
+  height: 100%;
+  background-color: lightblue;
+}
+.box-login{
+  width: 25%;
+  height: 100%;
+  background-color: lightgrey;
+}
