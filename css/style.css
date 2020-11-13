@@ -6,7 +6,6 @@
 .container{
   margin: auto;
   width: 100%;
-  /*height: 600px;*/
   background-color: white;
 }
 .clearfix{
@@ -33,17 +32,15 @@ a{
 ul li{
   display: inline-block;
 }
+/*Regole Generali*/
 
-
+/*Regole Header*/
 header{
   width: 100%;
   height: 800px;
 /*  background-color: black;*/
 }
-.container{
-  width: 100%;
-  margin: 0 auto;
-}
+/*TopHeader*/
 .fixed{
   width: 100%;
   margin: 0 auto;
@@ -53,6 +50,7 @@ header{
   left:0;
   z-index: 1;
 }
+/*Box Left*/
 .box-left{
   width: 100%;
   height: 75px;
@@ -74,6 +72,8 @@ header{
   padding-left: 5px;
 }
 
+
+/*Right Box*/
 .box-login{
   width: 50%;
   padding-right: 10%;
@@ -114,12 +114,16 @@ header{
   color: white;
 }
 
+
+ /*BoT header*/
 .menu-logo{
   margin-top: 75px;
   position: relative;
   width:100%;
+  box-shadow: 1px 0px 5px 0px rgba(0, 0, 0, 0.38) inset;
 
 }
+ /*Left Box*/
 .logo{
   width: 45%;
   padding-left: 10%;
@@ -132,6 +136,8 @@ header{
   padding-right: 10%;
   text-align: right;
 }
+
+ /*Right Nav*/
 .menu ul {
   text-align: right;
   padding: 30px 0;
@@ -148,6 +154,7 @@ header{
 .menu span{
   padding: 0 10px;
 }
+/*Jumbotron*/
 .jumbotron{height: 690px;
  background-image: url('../img/jumbotron.png');
  background-repeat: no-repeat;
@@ -156,6 +163,7 @@ header{
  position: relative;
  z-index: 0;
 }
+/*GreenBar*/
 .green-bar{
   height: 88px;
   width: 100%;
@@ -166,6 +174,7 @@ header{
   top: 88%;
   position: absolute;
 }
+/*Title*/
 .title-box{
   height: 500px;
   width:  600px;
@@ -177,6 +186,7 @@ header{
   font-size: 50px;
   color: #33475C;
 }
+/*Text*/
 .title-box p{
   padding-top: 25px;
   font-size: 14px;
@@ -184,6 +194,12 @@ header{
   line-height: 25px;
   color: #33475C;
 }
+.free p{
+  position: absolute;
+  top: 72%;
+  font-size: 10px;
+}
+/*Button*/
 .btn-big a.btn-o{
   padding: 20px;
   font-weight: 600;
@@ -194,9 +210,4 @@ header{
   position: absolute;
   top: 60%;
   left: 0;
-}
-.free p{
-  position: absolute;
-  top: 72%;
-  font-size: 10px;
 }
