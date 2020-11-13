@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-.container{
+.contenitore{
   margin: auto;
   width: 100%;
   background-color: white;
@@ -37,8 +37,7 @@ ul li{
 /*Regole Header*/
 header{
   width: 100%;
-  height: 800px;
-/*  background-color: black;*/
+
 }
 /*TopHeader*/
 .fixed{
@@ -211,3 +210,57 @@ header{
   top: 60%;
   left: 0;
 }
+/*Main*/
+.first{
+  width: 100%;
+  height: 1800px;
+  background-color: #F4F9FD;
+}
+.cubo{
+  margin: 0 auto;
+  width: 80%;
+  height: 450px;
+  background-color: rgb(223, 164, 163);
+}
+.freehub{
+  margin: 20px auto;
+  width: 80%;
+  height: 450px;
+  background-color: rgb(9, 246, 217);
+}
+.freebook{
+  width: 33%;
+  height: 100%;
+  background-color: rgb(79, 59, 3);
+}
+.freehubspot{
+  width: 66%;
+  height: 100%;
+  background-color: rgb(7, 199, 72);
+}
+.bighub{
+  margin: 40px auto;
+  width: 80%;
+  height: 900px;
+  background-color: rgb(186, 247, 61);
+}
+.marketing{
+  width: 30%;
+  height: 100%;
+  background-color: rgb(205, 113, 33);
+  margin-right: 5%;
+}
+.sales{
+  width: 30%;
+  height: 100%;
+  background-color: rgb(205, 113, 33);
+  margin-right: 5%;
+}
+.service{
+  width: 30%;
+  height: 100%;
+  background-color: rgb(205, 113, 33);
+}
+
+
+/*Fist*/
