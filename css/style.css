@@ -217,11 +217,45 @@ header{
   background-color: #F4F9FD;
 }
 .cubo{
-  margin: 0 auto;
+  margin: 5px auto;
+  height: 400px;
   width: 80%;
-  height: 450px;
-  background-color: rgb(223, 164, 163);
+  position: relative;
 }
+.icubo{
+  position: absolute;
+  top: 35%;
+  left: 60%;
+  transform: translate(-50% , -50%);
+}
+
+.icubo img{
+  width: 50%;
+  text-align: center;
+}
+
+.cubotext{
+  position: absolute;
+  width: 60%;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  font-weight: bold;
+}
+
+.cubotext h2{
+  text-align: center;
+  padding-bottom: 40px;
+  font-size: 35px;
+  color: #33475C;
+}
+.cubotext p{
+  text-align: center;
+  font-size: 16px;
+  color: #33475C;
+}
+
+
 .freehub{
   margin: 20px auto;
   width: 80%;
