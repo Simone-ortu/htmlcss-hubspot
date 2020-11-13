@@ -48,25 +48,27 @@ header{
   width: 100%;
   margin: 0 auto;
   background-color: #F4F9FD;
-  /*position: fixed;*/
+  position: fixed;
+  top: 0;
+  left:0;
+  z-index: 1;
 }
 .box-left{
   width: 100%;
   height: 75px;
-  margin: auto ;
   border-bottom: 1px solid black;
 }
 .box-lang{
   width: 50%;
   padding-top: 25px;
-  padding-left: 20%;
+  padding-left: 10%;
 
 }
 .box-lang ul li a{
   font-weight: 600;
   font-size: 16px;
   color: #33475C;
-  padding-left: 20px;
+  padding-right: 20px;
 }
 .box-lang ul li i{
   padding-left: 5px;
@@ -74,16 +76,18 @@ header{
 
 .box-login{
   width: 50%;
-  padding-left: 20%;
+  padding-right: 10%;
+  text-align: right;
 }
 .box-login ul li{
   list-style: none;
   display: inline-block;
-  padding-left: 25px;
+  padding-right:  20px;
+
 }
 .box-login ul{
-  text-align: center;
-  padding: 25px 0;
+  text-align: right;
+  padding-top:  25px ;
 }
 .box-login ul li a{
   font-weight: 600;
@@ -111,29 +115,31 @@ header{
 }
 
 .menu-logo{
+  margin-top: 75px;
   position: relative;
   width:100%;
 
 }
 .logo{
   width: 45%;
-  padding-left: 20%;
+  padding-left: 10%;
 }
 .logo img{
   padding-top: 25px;
 }
 .menu{
   width: 55%;
-  /*padding-right: 70px;*/
+  padding-right: 10%;
+  text-align: right;
 }
 .menu ul {
-  text-align: center;
+  text-align: right;
   padding: 30px 0;
 }
 .menu ul li {
   list-style: none;
   display: inline-block;
-  padding-right: 35px;
+  padding-right: 20px;
 }
 .menu ul li a{
   font-weight: 600;
@@ -158,14 +164,13 @@ header{
   border-bottom:  3px solid #33475C;
   left: 0%;
   top: 88%;
-  z-index: 1;
   position: absolute;
 }
 .title-box{
   height: 500px;
   width:  600px;
   position: absolute;
-  left: 270px;
+  left: 10%;
 }
 .title-box h1{
   padding-top: 50px;
