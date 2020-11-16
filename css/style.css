@@ -214,7 +214,7 @@ header{
 /*Main*/
 .first{
   width: 100%;
-  height: 1900px;
+  height: 1850px;
   background-color: #F4F9FD;
 
 }
@@ -427,6 +427,163 @@ hr{
   border-radius: 5px;
   box-shadow: 1px 0px 5px 0px rgba(0, 0, 0, 0.38) ;
 }
+/*/Fist*/
+/*Second*/
+.second{
+  width: 100%;
+  height: 700px;
+  background-color: #00AAB7;
+}
+.table-top{
+  width: 67%;
+  height: 200px;
+  margin-left: 17%;
+  border-bottom: 1px solid white;
+}
+.box-groups{
+  width: 25%;
+  height: 100%;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  border-right: 1px solid white;
+}
+.box-groups img{
+  padding: 20px;
+}
+.counter h2{
+  font-size: 50px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+  position: relative;
+}
+.counter h2::after{
+content: " + ";
+display: inline-block;
+position: absolute;
+bottom: 50%;
+right: 30%;
+color: #fff;
+font-size: 20px;
+font-weight: 600;
+}
+.box-monthly{
+  width: 25%;
+  height: 100%;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  border-right: 1px solid white;
+}
+.box-monthly img{
+ padding: 20px;
+}
+.box-monthly .counter h2::after{
+  right: 25%;
+}
+.box-certified{
+  width: 25%;
+  height: 100%;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  border-right: 1px solid white;
 
+}
+.box-certified img{
+  padding: 20px;
+}
+.box-certified .counter h2::after{
+  right: 25%;
+}
+.box-registered{
+  width: 25%;
+  height: 100%;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+}
+.box-registered img{
+  padding: 20px;
 
-/*Fist*/
+}
+.table-bot{
+  width: 67%;
+  height: 200px;
+  margin-left: 17%;
+}
+.box-integrations{
+  width: 25%;
+  height: 100%;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  border-right: 1px solid white;
+}
+.box-integrations img{
+  width: 80%;
+  padding: 20px;
+}
+.box-lagueges{
+  width: 25%;
+  height: 100%;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  border-right: 1px solid white;
+}
+.box-lagueges img{
+  padding: 27px;
+}
+.box-langueges .counter h2::after{
+  right: 100%;
+}
+.box-social{
+  width: 25%;
+  height: 100%;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  border-right: 1px solid white;
+}
+.box-social img{
+  padding: 27px;
+}
+.box-social .counter h2::after{
+  right: 25%;
+}
+.box-profiles{
+  width: 25%;
+  height: 100%;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+}
+.box-profiles img{
+  padding: 27px;
+}
+.box-profiles h2{
+  padding-top: 15px;
+}
+.box-profiles .counter h2::after{
+  top: 35%;
+}
+.text h2{
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  padding-top: 40px;
+  padding-left: 140px;
+  padding-right: 140px;
+}
+.text p{
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  padding-left: 220px;
+  padding-right: 220px;
+  line-height: 1.6;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+/*/Second*/
