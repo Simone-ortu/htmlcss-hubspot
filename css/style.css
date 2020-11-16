@@ -440,6 +440,7 @@ hr{
   margin-left: 17%;
   border-bottom: 1px solid white;
 }
+/*box-groups*/
 .box-groups{
   width: 25%;
   height: 100%;
@@ -467,6 +468,7 @@ color: #fff;
 font-size: 20px;
 font-weight: 600;
 }
+/*box-monthly*/
 .box-monthly{
   width: 25%;
   height: 100%;
@@ -481,6 +483,7 @@ font-weight: 600;
 .box-monthly .counter h2::after{
   right: 25%;
 }
+/*box-certified*/
 .box-certified{
   width: 25%;
   height: 100%;
@@ -496,6 +499,7 @@ font-weight: 600;
 .box-certified .counter h2::after{
   right: 25%;
 }
+/*box-registered*/
 .box-registered{
   width: 25%;
   height: 100%;
@@ -512,6 +516,7 @@ font-weight: 600;
   height: 200px;
   margin-left: 17%;
 }
+/*box-integrations*/
 .box-integrations{
   width: 25%;
   height: 100%;
@@ -524,6 +529,7 @@ font-weight: 600;
   width: 80%;
   padding: 20px;
 }
+/*box-lagueges*/
 .box-lagueges{
   width: 25%;
   height: 100%;
@@ -538,6 +544,7 @@ font-weight: 600;
 .box-langueges .counter h2::after{
   right: 100%;
 }
+/*box-social*/
 .box-social{
   width: 25%;
   height: 100%;
@@ -552,6 +559,7 @@ font-weight: 600;
 .box-social .counter h2::after{
   right: 25%;
 }
+/*box-profiles*/
 .box-profiles{
   width: 25%;
   height: 100%;
@@ -573,17 +581,142 @@ font-weight: 600;
   color: white;
   font-size: 40px;
   padding-top: 40px;
-  padding-left: 140px;
-  padding-right: 140px;
+  padding-left: 300px;
+  padding-right: 300px;
 }
 .text p{
   text-align: center;
   color: white;
   font-size: 16px;
-  padding-left: 220px;
-  padding-right: 220px;
+  padding-left: 350px;
+  padding-right: 350px;
   line-height: 1.6;
   padding-top: 40px;
   padding-bottom: 40px;
 }
 /*/Second*/
+/*Third*/
+.third{
+  width: 100%;
+  height: 700px;
+}
+.box-sup{
+  width: 90%;
+  margin: 0 auto;
+}
+.box-counter{
+  width: 40%;
+  margin-left: 3%;
+}
+.box-counter h2 {
+  text-align: center;
+  font-size: 45px;
+  padding-top: 15%;
+}
+.box-counter p{
+  text-align: center;
+  padding-top: 20px;
+  padding-left: 200px;
+  padding-right:200px;
+  font-size: 18px;
+}
+/*Companies*/
+.toplist{
+  padding-top: 10%;
+}
+.wwf {
+  width: 200px;
+}
+.wwf img{
+  width: 75%;
+  padding-left: 20%;
+}
+.monkey {
+  width: 200px;
+}
+.monkey img{
+  width: 75%;
+  padding-top: 5%;
+}
+.g2 {
+  width: 200px;
+}
+.g2 img{
+  width: 85%;
+  padding-top: 5%;
+  padding-left: 15%;
+}
+.trello {
+  width: 200px;
+}
+.trello img{
+  width: 90%;
+  padding-top: 5%;
+}
+.subaru{
+  width: 200px;
+}
+.subaru img{
+  width: 75%;
+  margin-top: 5%;
+  padding-top: 5%;
+  padding-left: 15%;
+}
+.soundcloud{
+  width: 200px;
+}
+.soundcloud img{
+  width: 75%;
+  margin-top: 9%;
+  padding-top: 5%;
+}
+.classpass{
+  width: 200px;
+}
+.classpass img{
+  width: 75%;
+  margin-top: 5%;
+  margin-left: 10%;
+}
+.vmware{
+  width: 200px;
+}
+.vmware img{
+  width: 75%;
+  margin-top: 10%;
+  margin-left: 10%;
+}
+/*/Companies*/
+.box-inf{
+  width: 90%;
+  padding-top: 107px;
+}
+
+.box-customer img{
+  width: 65%;
+  margin-left: 50%;
+}
+.box-grow{
+  width: 30%;
+  position: relative;
+  margin-left: 15%;
+  padding-top: 40px;
+}
+.box-grow h2{
+  font-size: 40px;
+  padding-bottom: 50px;
+}
+.box-grow p{
+  font-size: 18px;
+  line-height: 1.6;
+  padding-bottom: 30px;
+}
+.box-grow .btn-big{
+  transform: translateY(30%);
+  padding-bottom: 30px;
+}
+.box-grow .free p{
+  font-size: 14px;
+  transform: translateY(100%);
+  padding-top: 60px;
+}
